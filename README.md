@@ -102,9 +102,9 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 
 <p>The initial performance for all four algorithms are displayed below: </p>
 
-
+<div align="center">
 | **Model Name** | **MAE** | **MAPE** | **RMSE** |
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 | Random Forest Regressor | 1104.87 +/- 209.75 | 0.16 +/- 0.03	 | 1530.38 +/- 273.38 |
 | XGBoost Regressor | 1179.33 +/- 111.96 | 0.17 +/- 0.01	 | 1639.3 +/- 148.34 |
 | Linear Regression | 2079.0 +/- 280.91 | 0.3 +/- 0.01	 | 2955.05 +/- 426.56 |
@@ -121,7 +121,7 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 <div align="center">
 	
 | **Model Name** | **MAE** | **MAPE** | **RMSE** |
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 | XGBoost Regressor | 949.881428	 | 0.143602 | 1336.919406 |
 
 
