@@ -72,7 +72,7 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 
 - <p align="justify"> <b> Machine Learning Modeling </b>: Training Regression Algorithms with time series cross-validation. The best model was selected to be improved via Hyperparameter Tuning. </p>
 
-- <b> Model Evaluation </b>: Evaluating the model using four metrics: MAE, MAPE, RMSE and R<sup>2</sup>. 
+- <b> Model Evaluation </b>: Evaluating the model using four metrics: MAE, MAPE and RMSE. 
 
 - <b> Financial Results </b>: Translating the ML model's statistical performance to financial and business performance.
 
@@ -86,17 +86,27 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 - Git and Github.
 - Exploratory Data Analysis (EDA). 
 - Techniques for Feature Selection.
-- Regression Algorithms (Linear and Lasso Regression; Random Forest, XGBoost and LGBM Regressors).
-- Cross-Validation Methods, Hyperparameter Optimization and Algorithms Performance Metrics (RMSE, MAE, MAPE, R2).
+- Regression Algorithms (Linear and Lasso Regression; Random Forest and XGBoost Regressors).
+- Cross-Validation Methods, Hyperparameter Optimization and Algorithms Performance Metrics (RMSE, MAE and MAPE).
 
 # 5. **Machine Learning Models**
 
-<p align="justify"> This was the most fundamental part of this project, since it's in ML modeling where the sales predictions for each store can be made. Four models were trained using time series cross-validation: </p>
+<p align="justify"> This was the most fundamental part of this project, since it's in ML modeling where the sales predictions for each store can be made.  An average model was used as a baseline and four models were trained using time series cross-validation: </p>
 
 - Linear Regression
 - Lasso Regression (Regularized Linear Regression)
 - Random Forest Regressor
 - XGBoost Regressor
+
+<p>The baseline model performance is displayed below: </p>
+
+<div align="center">
+
+| **Model Name** | **MAE** | **MAPE** | **RMSE** |
+|:---:|:---:|:---:|:---:|
+| Average Model | 1354.80 | 0.2064	 | 1835.135542 |
+
+</div>
 
 <p>The initial performance for all four algorithms are displayed below: </p>
 
