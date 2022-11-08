@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import json
 from flask import Flask, request, Response
+import os
 
 #constants
 TOKEN = '5632821313:AAFnIJChckEaJ01wbC0XH9EuimgeVJQglZQ'
@@ -14,6 +15,9 @@ TOKEN = '5632821313:AAFnIJChckEaJ01wbC0XH9EuimgeVJQglZQ'
 
 # Webhook
 #https://api.telegram.org/bot5632821313:AAFnIJChckEaJ01wbC0XH9EuimgeVJQglZQ/setWebhook?url=https://9b5f-170-239-75-95.sa.ngrok.io/
+
+# Webhook Heroku
+#https://api.telegram.org/bot5632821313:AAFnIJChckEaJ01wbC0XH9EuimgeVJQglZQ/setWebhook?url=https://rossmanntelegram-bot.herokuapp.com/
 
 # Send message
 #https://api.telegram.org/bot5632821313:AAFnIJChckEaJ01wbC0XH9EuimgeVJQglZQ/sendMessage?chat_id=373642690&text=Hi Igor, I'm doing great, tks!

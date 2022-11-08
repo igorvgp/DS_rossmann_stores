@@ -1,6 +1,6 @@
 from flask import Flask, request, Response
 import pickle
-from rossmann.Rossmann import Rossmann
+from webapp.rossmann.Rossmann import Rossmann
 import pandas as pd
 
 
