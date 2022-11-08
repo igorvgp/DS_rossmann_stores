@@ -100,9 +100,9 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 - XGBoost Regressor
 - Light GBM Regressor
 
-The initial performance for all four algorithms are displayed below: </p>
+<div align="center"> The initial performance for all four algorithms are displayed below: </p>
 
-<div align="center">
+
 
 | **Model Name** | **MAE** | **MAPE** | **RMSE** |
 |:---:|:---:|:---:|:---:|:---:|
@@ -117,9 +117,7 @@ The initial performance for all four algorithms are displayed below: </p>
 
 <p align="justify"> <b> The XGBoost model was chosen for Hyperparameter Tuning. Even if Random Forest has the best performance if we look into the metrics, XGBoost would still be better to use, because it's much faster to train and tune </b>. </p>
 
-After tuning XGBoost's hyperparameters using Random Search the model performance has improved: </p>
-
-<div align="center">
+<div align="center">After tuning XGBoost's hyperparameters using Random Search the model performance has improved: </p>
 	
 | **Model Name** | **MAE** | **MAPE** | **RMSE** |
 |:---:|:---:|:---:|:---:|:---:|
