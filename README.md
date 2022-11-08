@@ -102,7 +102,6 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 
 <p>The initial performance for all four algorithms are displayed below: </p>
 
-<div align="center">
 
 | **Model Name** | **MAE** | **MAPE** | **RMSE** |
 |:---:|:---:|:---:|:---:|:---:|
