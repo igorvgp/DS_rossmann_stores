@@ -100,7 +100,7 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 - XGBoost Regressor
 - Light GBM Regressor
 
-The initial performance for all six algorithms are displayed below (sorted by RMSE): </p>
+The initial performance for all four algorithms are displayed below: </p>
 
 <div align="center">
 
