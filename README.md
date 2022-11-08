@@ -183,4 +183,4 @@ In this project the main objective was accomplished:
  # Contact
 
 - igorviniciusgpereira@gmail.com
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.https://www.linkedin.com/in/igorvgpereira/)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igorvgpereira/)
