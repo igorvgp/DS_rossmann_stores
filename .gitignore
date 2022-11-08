@@ -1,8 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+__pycache__
 *.py[cod]
 *$py.class
-
+Rossmann.cpython-39.pyc/
+Rossmann.cpython-39.pyc
 # C extensions
 *.so
 *.csv
