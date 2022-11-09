@@ -1,7 +1,7 @@
 <h1 align="center"> Creating a bot that predicts Rossmann future sales</h1>
 
 <p align="center">
-  <img src="https://https://https://github.com/igorvgp/rossman_stores/blob/main/Img/rossmann.jpg" alt="drawing" width="800"/>
+  <img src="https://user-images.githubusercontent.com/66283452/195202224-01bfd468-9f1c-4e83-af60-b101312a98e3.svg" alt="drawing" width="800"/>
 </p>
 
 *Obs: The business problem is fictitious, although both company and data are real.*
