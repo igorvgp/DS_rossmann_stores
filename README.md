@@ -15,13 +15,13 @@
 <p align="justify"> The architecture of the project can is shown in the image below: </p>
 
 <p align="center">
-  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/project_architecture.png" alt="drawing" width="350"/>
+  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/project_architecture.png" alt="drawing" width="800"/>
 </p>
 
 The solution was deployed at Heroku Cloud and the sales forecasts can be accessed through a Telegram bot available [here](https://t.me/rossmann_newapi_bot).
 
 <p align="center">
-  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/telegram_bot.jpeg" alt="drawing" width="800"/>
+  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/telegram_bot.jpeg" alt="drawing" width="350"/>
 </p>
 
 # 2. **Data Overview**
