@@ -9,7 +9,7 @@
 *The in-depth Python code explanation is available in [this](https://github.com/igorvgp/rossman_stores/blob/main/m10_v01_store_sales_prediction.ipynb) Jupyter Notebook.*
 
 # 1. **Abstract**
-<p align="justify"> This Data Science project was developed with Rossmann data available on [Kaggle](https://https://www.kaggle.com/) in order to predict sales of the next six weeks for each store and determine the best resource allocation for each store renovation.</p>
+ This Data Science project was developed with Rossmann data available on [Kaggle](https://https://www.kaggle.com/) in order to predict sales of the next six weeks for each store and determine the best resource allocation for each store renovation.
 <p align="justify"> XGBoost machine learning model was trained to make the sales predictions, reaching a MAPE (mean percent error) of 14% and predicting a sales value of $283.7M in the following 6 weeks.</p>
 
 <p align="justify"> The architecture of the project can is shown in the image below: </p>
@@ -18,7 +18,7 @@
   <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/project_architecture.png" alt="drawing" width="800"/>
 </p>
 
-<p align="justify"> The solution was deployed at Heroku Cloud and the sales forecasts can be accessed through a Telegram bot available [here](https://t.me/rossmann_newapi_bot). </p>
+The solution was deployed at Heroku Cloud and the sales forecasts can be accessed through a Telegram bot available [here](https://t.me/rossmann_newapi_bot).
 
 <p align="center">
   <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/telegram_bot.jpeg" alt="drawing" width="800"/>
