@@ -1,19 +1,28 @@
 <h1 align="center"> Creating a bot that predicts Rossmann future sales</h1>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66283452/195202224-01bfd468-9f1c-4e83-af60-b101312a98e3.svg" alt="drawing" width="800"/>
+  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/rossmann.jpg" alt="drawing" width="800"/>
 </p>
 
 *Obs: The business problem is fictitious, although both company and data are real.*
 
 *The in-depth Python code explanation is available in [this](https://github.com/igorvgp/rossman_stores/blob/main/m10_v01_store_sales_prediction.ipynb) Jupyter Notebook.*
 
-# 1. **Rossmann and Business Problem**
-<p align="justify"> Rossmann is one of the largest drug store chains in Europe, with operations in Germany, Poland, Hungary, the Czech Republic, Turkey, Albania, Kosovo and Spain. Their sales can be influenced by promotions, competition, school and state holidays, seasonality, locality, etc.</p>
+# 1. **Abstract**
+<p align="justify"> This Data Science project was developed with Rossmann data available on [Kaggle](https://https://www.kaggle.com/) in order to predict sales of the next six weeks for each store and determine the best resource allocation for each store renovation.</p>
+<p align="justify"> XGBoost machine learning model was trained to make the sales predictions, reaching a MAPE (mean percent error) of 14% and predicting a sales value of $283.7M in the following 6 weeks.</p>
 
-This **Data Science** project is focused on solving one problem: 
+<p align="justify"> The architecture of the project can is shown in the image below: </p>
 
-- ### **Rossmann CEO is requiring a sales prediction of the next six weeks for each store, in order to determine the best resource allocation for each store renovation.**
+<p align="center">
+  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/project_architecture.png" alt="drawing" width="800"/>
+</p>
+
+<p align="justify"> The solution was deployed at Heroku Cloud and the sales forecasts can be accessed through a Telegram bot available [here](https://t.me/rossmann_newapi_bot). </p>
+
+<p align="center">
+  <img src="https://github.com/igorvgp/rossman_stores/blob/main/Img/telegram_bot.jpeg" alt="drawing" width="800"/>
+</p>
 
 # 2. **Data Overview**
 The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](https://www.kaggle.com/competitions/rossmann-store-sales/data) contains historical sales data for 1,115 Rossmann stores. The initial features descriptions are available below:
