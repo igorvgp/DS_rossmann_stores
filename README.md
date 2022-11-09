@@ -47,6 +47,7 @@ The data was collected from [Kaggle](https://www.kaggle.com/). This [dataset](ht
 | Promo2Since(Year/Week)| describes the year and calendar week when the store started participating in Promo2.|
 | PromoInterval | describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store.|
 
+
 # 3. **Assumptions**
 - Customers column was dropped, because for now there's no information about the amount of customers six weeks into the future. 
 - The NaN's in CompetitionDistance were replaced by 3 times the maximum CompetitionDistance in the dataset, because the observations with NaN's are likely stores that are too far, which means there's no competition.
